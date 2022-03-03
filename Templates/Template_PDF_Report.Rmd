@@ -1,0 +1,62 @@
+---
+title: "Template_PDF"
+author: "JKANG"
+date: '2022/3/3'
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+header-includes: 
+- \usepackage{kotex}
+editor_options:
+  chunk_output_type: console
+mainfont: NanumGothic
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+
+# Abstract {-}
+
+* The Model is:
+
+$$
+\begin{aligned}
+	\bullet \; 	Y_{ij} 
+	& = \beta_1 + \beta_2t_{ij}
+	+ \beta_3x_{i} + \beta_4(t_{ij} \times x_{i})
+	+ b_{1i} + b_{2i}t_{ij} + \epsilon_{ij} \\
+	& = \text{간단하죠?}
+\end{aligned}
+$$
+
+## R Markdown {-}
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+# Introduction
+
+# Methods
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+# Results
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+# References {-}

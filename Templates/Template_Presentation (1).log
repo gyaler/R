@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  4 MAR 2022 19:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.24)  4 MAR 2022 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2139,7 +2139,7 @@ LaTeX Font Info:    Font shape `TU/NanumSquareRound(0)/b/n' will be
 File: cau.png Graphic file (type bmp)
 <cau.png>
 LaTeX Font Info:    Font shape `TU/NanumSquareRound(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 151.
+(Font)              scaled to size 10.0pt on input line 152.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumSquareRound(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2156,30 +2156,30 @@ Package microtype Info: Character `\guilsinglright ' is missing
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.35031pt on input line 169.
+(Font)              scaled to size 7.35031pt on input line 171.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.12526pt on input line 169.
+(Font)              scaled to size 6.12526pt on input line 171.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-69.
+71.
 (c:/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.35104pt on input line 169.
+(Font)              scaled to size 7.35104pt on input line 171.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.12587pt on input line 169.
+(Font)              scaled to size 6.12587pt on input line 171.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.34958pt on input line 169.
+(Font)              scaled to size 7.34958pt on input line 171.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.12465pt on input line 169.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 169
+(Font)              scaled to size 6.12465pt on input line 171.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 171
 .
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 169
+LaTeX Font Info:    Trying to load font information for U+msb on input line 171
 .
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2187,50 +2187,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [5
 
-]
-File: cau.png Graphic file (type bmp)
-<cau.png>
-LaTeX Font Info:    Font shape `TU/NanumSquareRound(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 185.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/NanumSquareRound(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/NanumSquareRound(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/NanumSquareRound(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/NanumSquareRound(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-File: Template_Presentation_files/figure-beamer/multiple-2.pdf Graphic file (ty
-pe pdf)
-<use Template_Presentation_files/figure-beamer/multiple-2.pdf>
-[6
-
-] [7
+] [6
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.39pt on input line 240.
+(Font)              scaled to size 9.39pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.70715pt on input line 240.
+(Font)              scaled to size 6.70715pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.41565pt on input line 240.
+(Font)              scaled to size 13.41565pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.39095pt on input line 240.
+(Font)              scaled to size 9.39095pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.70782pt on input line 240.
+(Font)              scaled to size 6.70782pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 13.41296pt on input line 240.
+(Font)              scaled to size 13.41296pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.38907pt on input line 240.
+(Font)              scaled to size 9.38907pt on input line 234.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.7065pt on input line 240.
-[8
+(Font)              scaled to size 6.7065pt on input line 234.
+[7
 
-] [9
+] [8
 
 ]
 Missing character: There is no 월 (U+C6D4) in font [lmsans10-regular]:mapping=te
@@ -2245,14 +2223,7 @@ Missing character: There is no 이 (U+C774) in font [lmsans10-regular]:mapping=t
 x-text;!
 Missing character: There is no 후 (U+D6C4) in font [lmsans10-regular]:mapping=te
 x-text;!
-[10
-
-]
-LaTeX Font Info:    Font shape `TU/NanumSquareRound(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 289.
-[11
-
-] [12
+[9
 
 ]
 \tf@nav=\write5
@@ -2266,12 +2237,12 @@ LaTeX Font Info:    Font shape `TU/NanumSquareRound(0)/m/n' will be
 
 (./Template_Presentation.aux) ) 
 Here is how much of TeX's memory you used:
- 32982 strings out of 476919
- 615729 string characters out of 5825423
- 1062499 words of memory out of 5000000
- 52332 multiletter control sequences out of 15000+600000
- 409013 words of font info for 85 fonts, out of 8000000 for 9000
+ 32956 strings out of 476919
+ 614849 string characters out of 5825423
+ 1062151 words of memory out of 5000000
+ 52310 multiletter control sequences out of 15000+600000
+ 408997 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,15n,132p,526b,2586s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Template_Presentation.pdf (12 pages).
+Output written on Template_Presentation.pdf (9 pages).

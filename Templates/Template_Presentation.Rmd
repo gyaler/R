@@ -4,42 +4,40 @@ author: "Jinmo Kang"
 date: 09/27/2021
 output:
   beamer_presentation:
-    theme: "CambridgeUS"
+    theme: "Boadilla"
     colortheme: "dolphin"
     latex_engine: "xelatex"
-    toc: false
+    toc: FALSE
     slide_level: 3
-    number_sections: true
 header-includes: 
 - \usepackage{kotex}
-- \AtBeginSubsection{}
+- \usepackage{subfig}
 #- \AtBeginSection{}
+- \AtBeginSubsection{}
 mainfont: "NanumSquareRound"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+options(knitr.table.format = 'latex')
 ```
 
+
 ### 개요
-- 파킨슨 병에서의 레보도파 사용과 보행동결 발생 간 연관성 연구  
-\hfill
-\vspace{5mm}  
-- 미세먼지 관련 시공간적(spatio-temporal) 자료 분석  
-&nbsp;  
-&nbsp;  
-- 그레이브스 병에서의 안병증 발생 위험인자 분석  
+- 파킨슨 병에서의 레보도파 사용과 보행동결 발생 간 연관성 연구
+\vspace{5mm}
+- 미세먼지 관련 시공간적(spatio-temporal) 자료 분석
+\vspace{5mm}
+- 그레이브스 병에서의 안병증 발생 위험인자 분석
 
+# **주제 1**
 
-# **파킨슨 병에서의 레보도파 사용과 보행동결 발생 간 연관성 연구**
-
-## **연구 개요**
+## 주제 1-1
 
 ### 기본 개념
 - 레보도파 (Levodopa)  
 도파민의 생합성 시 생성되는 중간 물질. 파킨슨 병 치료에 주로 쓰임  
-&nbsp;  
-&nbsp;  
+
 
 ```{r, echo=FALSE, fig.cap="cau", fig.align='center', out.width = '40%'}
 knitr::include_graphics("cau.png")
@@ -47,35 +45,55 @@ knitr::include_graphics("cau.png")
 
 ### 연구 목적
 - 레보도파의 사용이 파킨슨병의 FOG 증상에 영향을 끼치는 지 탐구  
-  &nbsp;  
-  - 레보도파 투약 시작 시기  
-  &nbsp;  
+\vspace{3mm}
+  - 레보도파 투약 시작 시기
+\vspace{3mm}
   - 레보도파 투약 기간
+
+## **주제 1-2**
+
+### 그림 2개 넣기
+
+```{r multiple, echo=FALSE, fig.cap="전체 그림 설명", fig.subcap = c('첫번째 그림', '두번째 그림'), out.width = '40%', fig.ncol = 2, fig.align='center'}
+knitr::include_graphics("cau.png")
+hist(cars$speed)
+```
+
 
 ### 연구 방법
 - Baseline Characteristics  
-  &nbsp;  
-  - Categorical variables: chi-square test  
-  &nbsp;  
-  - Continuous variables: t-test  
-&nbsp;  
-- IPW (Inverse Probability Weighting)  
-&nbsp;  
-- 모형 설정  
-  &nbsp;  
+\vspace{3mm}
+  - Categorical variables: chi-square test
+\vspace{3mm}
+  - Continuous variables: t-test
+\vspace{3mm}
+- IPW (Inverse Probability Weighting)
+\vspace{3mm}
+- 모형 설정
+\vspace{3mm}
   - Survival Analysis, ...
 
 ### 인과추론 (Causal Inference)   
 - 인과추론 (Causal Inference)  
-&nbsp;  
-  - 시간적 우선성: 원인이 결과보다 시간상으로 먼저 발생해야 함  
-  &nbsp;  
-  - 공변성(상관관계): 원인이 변화하면 결과도 항상 같이 변화해야 함  
-  &nbsp;  
-  - 통제성: 결과와 원인이 제 3의 변수에 의해 영향을 받으면 안 됨  
-&nbsp;  
+\vspace{3mm}
 
-## **향후 계획**
+```{r, echo = FALSE}
+library(tidyverse)
+library(palmerpenguins)
+library(knitr)
+tab1 <- penguins %>%
+  drop_na() %>%
+  count(species, island)
+kable(tab1, position = "!h",
+      col.names = c('펭귄 종류', '서식지', '개체수'),
+      caption = "펭귄 종류별 개체수",
+      align = "lrc", booktab = TRUE)
+```
+
+# **주제 2**
+
+## **주제 2-1**
+
 ### 향후 계획
 - 미팅 및 분석방법 확립  
 
@@ -85,19 +103,18 @@ knitr::include_graphics("cau.png")
 |2021-10월 이후 | ssss |
 |2022-01월 이후 | dddd |
 
-- 필요 이론 숙지  
-  &nbsp;  
-  - Points system, Risk scores  
-  &nbsp;  
+- 필요 이론 숙지
+  \vspace{3mm}
+  - Points system, Risk scores
+  \vspace{3mm}
   - Discrimination, Calibration, Validation, ...
+
+### \hfill
+\begin{center}
+\LARGE Q \& A
+\end{center}
   
-  
-# This section is unnumbered {.unnumbered}
-
-### Q&A
-
-### END
-
-감사합니다
-
-
+### \hfill
+\begin{center}
+\Large 감사합니다!
+\end{center}

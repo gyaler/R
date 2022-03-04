@@ -2,7 +2,7 @@
 title: "워드파일 제목"
 author: "Steven V. Miller"
 output:
-  word_document:
+  bookdown::word_document2:
     toc: true
     number_sections: true
 header-includes: 
@@ -13,7 +13,8 @@ mainfont: NanumGothic
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+options(knitr.table.format = 'latex')
 ```
 
 \newpage
@@ -22,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * The Model is:
 
-$$
+\begin{equation}
 \begin{aligned}
 	\bullet \; 	Y_{ij} 
 	& = \beta_1 + \beta_2t_{ij}
@@ -30,7 +31,23 @@ $$
 	+ b_{1i} + b_{2i}t_{ij} + \epsilon_{ij} \\
 	& = \text{간단하죠?}
 \end{aligned}
-$$
+(\#eq:myequ)
+\end{equation}
+
+수식 \@ref(eq:myequ)에 의하여 설명된다.
+
+```{r myfigure, echo=FALSE, fig.cap="그림 설명", out.width = '40%'}
+knitr::include_graphics("cau.png")
+```
+
+그림 \@ref(fig:myfigure)을 살펴보자
+
+
+| 날짜 | 내용|
+| :--: | :--: |
+|2021-09-30 | cccc |
+|2021-10월 이후 | ssss |
+|2022-01월 이후 | dddd |
 
 
 # Section

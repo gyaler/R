@@ -3,18 +3,20 @@ title: "Template_PDF"
 author: "JKANG"
 date: '2022/3/3'
 output:
-  pdf_document:
+  bookdown::pdf_document2:
     toc: true
     number_sections: true
 header-includes: 
 - \usepackage{kotex}
+- \usepackage{subfig}
 editor_options:
   chunk_output_type: console
 mainfont: NanumGothic
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+options(knitr.table.format = 'latex')
 ```
 
 \newpage
@@ -23,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * The Model is:
 
-$$
+\begin{equation}
 \begin{aligned}
 	\bullet \; 	Y_{ij} 
 	& = \beta_1 + \beta_2t_{ij}
@@ -31,7 +33,42 @@ $$
 	+ b_{1i} + b_{2i}t_{ij} + \epsilon_{ij} \\
 	& = \text{간단하죠?}
 \end{aligned}
-$$
+(\#eq:myequ)
+\end{equation}
+
+수식 \@ref(eq:myequ)에 의하여 설명된다.
+
+```{r myfigure, echo=FALSE, fig.cap="그림 설명", fig.align='center', out.width = '40%'}
+knitr::include_graphics("cau.png")
+```
+
+그림 \@ref(fig:myfigure)을 살펴보자
+
+
+
+```{r multiple, echo=FALSE, fig.cap="전체 그림 설명", fig.subcap = c('첫번째 그림', '두번째 그림', '세번째 그림'), out.width = '40%', fig.ncol = 2, fig.align='center'}
+knitr::include_graphics("cau.png")
+hist(cars$speed)
+plot(cars, pch = 19)
+```
+
+
+```{r table, echo = FALSE}
+library(tidyverse)
+library(palmerpenguins)
+library(knitr)
+tab1 <- penguins %>%
+  drop_na() %>%
+  count(species, island)
+kable(tab1, position = "!h",
+      col.names = c('펭귄 종류', '서식지', '개체수'),
+      caption = "펭귄 종류별 개체수",
+      align = "lrc", booktab = TRUE)
+```
+
+
+테이블 \@ref(tab:table)을 보면 알 수 있다.
+
 
 ## R Markdown {-}
 
